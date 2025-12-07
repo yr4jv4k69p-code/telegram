@@ -3,7 +3,7 @@ from flask import Flask
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
-TOKEN = os.environ["BOT_TOKEN"]  # Render'da Environment Variable olarak gireceksin
+TOKEN = "8545902801:AAGjHYxHsb2J8Ui4zo0L4oPaKHWqawiMq30"
 
 # Render'ın port health-check'i için mini web sunucu
 app = Flask(__name__)
